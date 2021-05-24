@@ -1,0 +1,92 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.starryBG {
+    background: url(/assets/starryBG.png);
+    height: 100VH;
+}
+
+.logoHolder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 238px;
+    height: 306px;
+}
+
+.logoInside {
+    position: relative;
+    left: 0.58%;
+    right: 0.18%;
+    top: 0.1%;
+    bottom: 0.5%;
+}
+
+.moon {
+    position: absolute;
+    left: 87.58%;
+    right: 7.07%;
+    top: 20.78%;
+    bottom: 74.6%;
+}
+
+.sun {
+    position: absolute;
+    left: 41.08%;
+    right: 52.85%;
+    top: 0.1%;
+    bottom: 95.19%;
+}
+
+.comet {
+    position: absolute;
+    left: 93.02%;
+    right: 3.12%;
+    top: 45.35%;
+    bottom: 51.65%;
+}
+
+.rightBar {
+    position: absolute;
+    left: 71.84%;
+    right: 3.29%;
+    top: 94.49%;
+    bottom: 5.51%;
+    border: 1px solid #FFFFFF;
+}
+
+.leftBar {
+    position: absolute;
+    left: 3.64%;
+    right: 71.49%;
+    top: 94.49%;
+    bottom: 5.51%;
+    border: 1px solid #FFFFFF;
+
+}
+
+.studioSVG {
+    position: absolute;
+    left: 32.57%;
+    right: 31.3%;
+    top: 92.79%;
+    bottom: 0.5%;
+}
+
+.astrasurfSVG {
+    position: absolute;
+    left: 0.58%;
+    right: 0.18%;
+    top: 77.39%;
+    bottom: 9.82%;
+}
