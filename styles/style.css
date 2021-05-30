@@ -16,10 +16,49 @@
     height: 100VH;
 }
 
+.hamburgerHolder {
+    position: absolute;
+    width: 47px;
+    height: 24px;
+    left: 35px;
+    top: 43px;    
+}
+
+.hamLine1 {
+    position: absolute;
+    width: 47px;
+    height: 0px;
+    left: 35px;
+    top: 43px;
+
+    border: 2px solid #FFFFFF;
+}
+
+.hamLine2 {
+    position: absolute;
+    width: 47px;
+    height: 0px;
+    left: 35px;
+    top: 55px;
+
+    border: 2px solid #FFFFFF;
+}
+
+.hamLine3 {
+    position: absolute;
+    width: 47px;
+    height: 0px;
+    left: 35px;
+    top: 67px;
+
+    border: 2px solid #FFFFFF;
+}
+
+
 .logoHolder {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35.5%;
+    left: 43%;
     width: 238px;
     height: 306px;
 }
@@ -54,6 +93,54 @@
     right: 3.12%;
     top: 45.35%;
     bottom: 51.65%;
+}
+
+.cometLine {
+    position: absolute;
+    left: 84.71%;
+    right: 8.25%;
+    top: 47.95%;
+    bottom: 48.71%;
+}
+
+.hand {
+    position: absolute;
+    left: 13.26%;
+    right: 2.16%;
+    top: 12.38%;
+    bottom: 21.85%;
+}
+
+.planet {
+    position: absolute;
+    left: 56.04%;
+    right: 28.25%;
+    top: 8.04%;
+    bottom: 86.28%;
+}
+
+.star6Point {
+    position: absolute;
+    left: 12.11%;
+    right: 76.16%;
+    top: 29.96%;
+    bottom: 61.65%;
+}
+
+.starRight {
+    position: absolute;
+    left: 86.16%;
+    right: 3.24%;
+    top: 1.07%;
+    bottom: 90.7%;
+}
+
+.starLeft {
+    position: absolute;
+    left: 17.41%;
+    right: 71.99%;
+    top: 6.06%;
+    bottom: 85.7%;
 }
 
 .rightBar {
