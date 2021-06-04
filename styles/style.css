@@ -9,6 +9,9 @@
     background: transparent;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 
 /* Header Styles */
 .starryBG {
@@ -16,44 +19,80 @@
     height: 100VH;
 }
 
-.hamburgerHolder {
+#sideMenu {
+    position: absolute;
+    background: #2D0C4E;
+    height: 100VH;
+    width: 267px;
+    top: 0px;
+    left: 0px;
+}
+
+#sideMenu li a {
+    position: absolute;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+    width: 196px;
+    height: 40px;
+    left: 42px;
+    caret-color: transparent;
+}
+
+#sideMenu li a::selection {
+    background: #2D0C4E;
+}
+
+.sideMenuOption1 {
+    top: 185px;
+}
+
+.sideMenuOption2 {
+    top: 291px;
+}
+
+#hamburgerHolder {
     position: absolute;
     width: 47px;
-    height: 24px;
+    height: 30px;
     left: 35px;
     top: 43px;    
 }
 
-.hamLine1 {
+#hamburgerHolder:hover {
+     cursor: pointer;
+}
+
+#hamLine1 {
     position: absolute;
     width: 47px;
     height: 0px;
-    left: 35px;
-    top: 43px;
+    /* left: 35px;
+    top: 43px; */
 
     border: 2px solid #FFFFFF;
 }
 
-.hamLine2 {
+#hamLine2 {
     position: absolute;
     width: 47px;
     height: 0px;
-    left: 35px;
-    top: 55px;
+    top: 12px;
 
     border: 2px solid #FFFFFF;
 }
 
-.hamLine3 {
+#hamLine3 {
     position: absolute;
     width: 47px;
     height: 0px;
-    left: 35px;
-    top: 67px;
+    top: 24px;
 
     border: 2px solid #FFFFFF;
 }
-
 
 .logoHolder {
     position: absolute;
