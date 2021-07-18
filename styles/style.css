@@ -21,7 +21,7 @@ a {
 
 #sideMenu {
     position: absolute;
-    background: #2D0C4E;
+    /* background: #2D0C4E; */
     height: 100VH;
     width: 267px;
     top: 0px;
@@ -51,7 +51,7 @@ a {
 }
 
 .sideMenuOption2 {
-    top: 291px;
+    top: 330px;
 }
 
 #hamburgerHolder {
@@ -215,4 +215,9 @@ a {
     right: 0.18%;
     top: 77.39%;
     bottom: 9.82%;
+}
+
+.surferDude {
+    position: absolute;
+    top: 10%;
 }
